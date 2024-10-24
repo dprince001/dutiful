@@ -13,7 +13,7 @@ const ResetPasswordPage = () => {
 
       {/* main content */}
       <section className='mb-20 sm:mb-[100px] max-w-[486px] mx-auto mt-16 w-[90%]'>
-        <h2 className='md:text-4xl text-2xl recoleta leading-[46px] mb-2'>
+        <h2 className='md:text-4xl text-2xl recoleta leading-[46px] sm:mb-2'>
           Reset password
         </h2>
         <p className='text-[#686868] mb-5'>Set your new password</p>

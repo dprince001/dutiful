@@ -19,6 +19,12 @@ const ConfirmOTPPage = () => {
     }
   }
 
+  const handleBackspace = (e, index) => {
+    if (e.key === 'Backspace' && !e.currentTarget.value && index > 0) {
+      inputRefs.current[index - 1]?.focus()
+    }
+  }
+
   return (
     <div className='min-h-screen flex flex-col'>
       <Navbar />
@@ -34,8 +40,9 @@ const ConfirmOTPPage = () => {
                 type='text'
                 value={digit}
                 onChange={e => handleChange(e.target.value, index)}
+                onKeyDown={e => handleBackspace(e, index)}
                 maxLength='1'
-                className='w-12 h-12 text-center text-xl border-2 border-[#B6B6E5] rounded-md p-3 bg-[#F3F3F3] outline-none'
+                className='w-12 h-12 text-center text-xl border-2 border-[#B6B6E5] rounded-md p-3 bg-[#F3F3F3] outline-none appearance-none'
               />
             ))}
           </div>

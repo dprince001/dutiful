@@ -24,12 +24,12 @@ const SignUpPage = () => {
 
       {/* main content */}
       <section className='mb-20 sm:mb-[100px] max-w-[486px] mx-auto mt-16 w-[90%]'>
-        <p className='text-[#686868] mb-2'>Sign up for free!</p>
+        <p className='text-[#686868] sm:mb-2'>Sign up for free!</p>
         <h2 className='md:text-4xl text-2xl recoleta leading-[46px] mb-5'>
           Get started
         </h2>
 
-        <div className='flex gap-10 mb-12'>
+        <div className='flex md:gap-10 gap-5 mb-12'>
           {signInOptions?.map(({ Icon, title }, index) => (
             <div
               key={index}

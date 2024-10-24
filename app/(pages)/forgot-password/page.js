@@ -32,7 +32,7 @@ const ForgotPasswordPage = () => {
           </div>
         ) : (
           <>
-            <h2 className='md:text-4xl text-2xl recoleta leading-[46px] mb-2'>
+            <h2 className='md:text-4xl text-2xl recoleta leading-[46px] sm:mb-2'>
               Forgot password
             </h2>
             <p className='text-[#686868] mb-5'>
