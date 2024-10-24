@@ -85,8 +85,8 @@ const PricingPage = () => {
 
       {/* main content */}
       <section className='mb-20'>
-        <div className='bg-white p-16 text-center'>
-          <h2 className='md:text-4xl text-[#1E1E4B] text-2xl recoleta leading-[46px] mb-3'>
+        <div className='bg-white sm:p-16 p-8 text-center'>
+          <h2 className='sm:text-4xl text-[#1E1E4B] text-2xl recoleta sm:leading-[46px] leading-[35px] mb-3'>
             Plans to Suit Your Business Budget
           </h2>
 
@@ -130,7 +130,9 @@ const PricingPage = () => {
           </div>
 
           <div className='w-[90%] mx-auto'>
-            <h2 className='font-medium sm:text-2xl text-lg mb-16'>Features Overview</h2>
+            <h2 className='font-medium sm:text-2xl text-lg mb-16'>
+              Features Overview
+            </h2>
             <PricingTable />
           </div>
         </section>

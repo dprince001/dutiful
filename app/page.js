@@ -39,11 +39,11 @@ export default function Home () {
       <section className='sm:mt-14 mt-10'>
         <div className='lg:flex justify-between items-center mx-auto w-[90%] gap-10 my-10'>
           <div className='lg:w-[50%] w-full'>
-            <h2 className='text-[#230B34] md:text-4xl text-2xl recoleta max-w-[470px] sm:leading-[46px] leading-[35px] mb-5'>
+            <h2 className='text-[#230B34] sm:text-4xl text-2xl recoleta sm:max-w-[470px] sm:leading-[46px] leading-[35px] mb-5'>
               List and grow your business  with just few clicks
             </h2>
 
-            <p className='max-w-[557px] text-[#383838] sm:text-xl leading-[28px] mb-20'>
+            <p className='sm:max-w-[557px] text-[#383838] sm:text-xl leading-[28px] mb-20'>
               Eliminate manual work and save time by listing your business or
               service on the best business directory in Nigeria.
             </p>
@@ -75,12 +75,11 @@ export default function Home () {
           </div>
         </div>
 
-        <div className='lg:flex justify-between items-center mx-auto w-[90%] gap-7 my-10 bg-[#FCFAFF] p-10 rounded-[24px] mb-20'>
+        <div className='lg:flex justify-between mx-auto w-[90%] gap-7 my-10 bg-[#FCFAFF] p-10 rounded-[24px] mb-20'>
           <Image
             src={phoneImage}
             alt='phone image'
-            // className='lg:min-w-[1000px] lg:ml-[-50px] w-full'
-            className='lg:w-[80%] lg:ml-[-50px] w-full'
+            className='lg:w-[50%] w-full'
           />
 
           <div className='lg:w-[50%] lg:ml-[-28%] w-full'>

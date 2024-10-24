@@ -35,8 +35,8 @@ const ContactPage = () => {
 
       {/* main content */}
       <section className='mb-20'>
-        <div className='bg-primary text-white p-16 pb-32 text-center relative'>
-          <h2 className='md:text-4xl text-2xl recoleta leading-[46px] mb-3'>
+        <div className='bg-primary text-white sm:p-16 p-8 pb-32 text-center relative'>
+          <h2 className='sm:text-4xl text-2xl recoleta sm:leading-[46px] leading-[35px] mb-3'>
             Get in touch
           </h2>
 
