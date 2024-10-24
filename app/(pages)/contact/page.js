@@ -35,7 +35,7 @@ const ContactPage = () => {
 
       {/* main content */}
       <section className='mb-20'>
-        <div className='bg-primary text-white sm:p-16 p-8 pb-32 text-center relative'>
+        <div className='bg-primary text-white sm:p-16 p-8 lg:pb-32 text-center relative'>
           <h2 className='sm:text-4xl text-2xl recoleta sm:leading-[46px] leading-[35px] mb-3'>
             Get in touch
           </h2>
@@ -49,7 +49,7 @@ const ContactPage = () => {
           <div className='texture-overlay absolute inset-0 z-20'></div>
         </div>
 
-        <div className='lg:flex justify-between gap-10 mx-auto w-[90%] mt-[-70px] mb-20 relative z-50'>
+        <div className='lg:flex justify-between gap-10 mx-auto w-[90%] lg:mt-[-70px] mt-10 mb-20 relative z-40'>
           {cards?.map(({ icon, title, detail }, index) => (
             <div
               key={index}
