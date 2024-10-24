@@ -36,7 +36,7 @@ export default function Home () {
       <Navbar />
 
       {/* main content */}
-      <section className='sm:mt-14 mt-10'>
+      <section className='sm:mt-14 mt-10 mb-20'>
         <div className='lg:flex justify-between items-center mx-auto w-[90%] gap-10 my-10'>
           <div className='lg:w-[50%] w-full'>
             <h2 className='text-[#230B34] sm:text-4xl text-2xl recoleta sm:max-w-[470px] sm:leading-[46px] leading-[35px] mb-5'>

@@ -84,7 +84,7 @@ const PricingPage = () => {
       <Navbar />
 
       {/* main content */}
-      <section className='mb-20'>
+      <section className='mb-20 sm:mt-14 mt-10'>
         <div className='bg-white sm:p-16 p-8 text-center'>
           <h2 className='sm:text-4xl text-[#1E1E4B] text-2xl recoleta sm:leading-[46px] leading-[35px] mb-3'>
             Plans to Suit Your Business Budget
