@@ -2,14 +2,14 @@ import Button from '@/app/components/button/button'
 import Image from 'next/image'
 import React from 'react'
 import purpleCheck from '@/app/assets/svgs/purpleCheck.svg'
-import canlIcon from '@/app/assets/svgs/cancelIcon.svg'
+import cancelIcon from '@/app/assets/svgs/cancelIcon.svg'
 
 const CheckMark = () => (
   <Image src={purpleCheck} alt='check icon' className='w-[24px] mx-auto' />
 )
 
 const CancelMark = () => (
-  <Image src={canlIcon} alt='cancel icon' className='w-[24px] mx-auto' />
+  <Image src={cancelIcon} alt='cancel icon' className='w-[24px] mx-auto' />
 )
 
 const plans = [
