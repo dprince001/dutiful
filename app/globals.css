@@ -2,26 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "Recoleta Alt";
+  src: url("/assets/fonts/recoleta/RecoletaAlt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Recoleta Alt";
+  src: url("/assets/fonts/recoleta/RecoletaAlt-Light.ttf") format("truetype");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta Alt";
+  src: url("/assets/fonts/recoleta/RecoletaAlt-Medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta Alt";
+  src: url("/assets/fonts/recoleta/RecoletaAlt-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/assets/fonts/circular-std/CircularStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/assets/fonts/circular-std/CircularStd-Medium.ttf")
+    format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/assets/fonts/circular-std/CircularStd-Book.ttf") format("truetype");
+  font-weight: light;
+  font-style: normal;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  font-family: "Circular Std", sans-serif;
+}
+
+.recoleta {
+  font-family: "Recoleta Alt", sans-serif;
+}
+
+.contact-background {
+  /* background: rgba(83, 47, 130, 1), url("./assets/images/texture.png") repeat; */
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      0deg,
+      rgba(2, 173, 231, 0.5),
+      rgba(2, 173, 231, 0.5)
+    ),
+    url("./assets/images/texture.png") repeat;
+
+    /* background:
+    rgba(83, 47, 130, 1),
+    url("./assets/images/texture.png") repeat;
+  background-blend-mode: overlay; */
+}
+
+
+.texture-overlay {
+  background: url("./assets/images/texture.png");
+  background-repeat: repeat;
+}
+
+.texture-overlay {
+  background: url("./assets/images/texture.png") repeat;
+  background-size: 320px 320px;
 }
