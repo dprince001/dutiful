@@ -2,7 +2,7 @@ import Button from '@/app/components/button/button'
 import Image from 'next/image'
 import React from 'react'
 import purpleCheck from '@/app/assets/svgs/purpleCheck.svg'
-import cancelIcon from '@/app/assets/svgs/cancelIcon.svg'
+import cancelIcon from '@/app/assets/svgs/cancel.svg'
 
 const CheckMark = () => (
   <Image src={purpleCheck} alt='check icon' className='w-[24px] mx-auto' />
